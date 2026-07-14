@@ -38,8 +38,8 @@ function createCoachCard(coach) {
     const card = document.createElement('div');
     card.className = 'coach-card';
     
-    const goalsHtml = coach.goals
-        .map(goal => `<span class="goal-tag">${goalLabels[goal]}</span>`)
+    const focusHtml = coach.focus
+        .map(focusArea => `<span class="focus-tag">${focusLabels[focusArea]}</span>`)
         .join('');
 
     card.innerHTML = `
@@ -49,8 +49,8 @@ function createCoachCard(coach) {
         <div class="coach-info">
             <h3 class="coach-name">${coach.name}</h3>
             <p class="coach-specialty">${coach.specialty}</p>
-            <div class="coach-goals">
-                ${goalsHtml}
+            <div class="coach-focus">
+                ${focusHtml}
             </div>
             <p class="coach-description">${coach.bio.substring(0, 100)}...</p>
             <p class="click-to-view">👆 Click to view full profile</p>
@@ -83,8 +83,8 @@ function createTestimonialsHtml(coachTestimonials) {
 
 // Open modal with coach details
 function openModal(coach) {
-    const goalsHtml = coach.goals
-        .map(goal => `<span class="goal-tag">${goalLabels[goal]}</span>`)
+    const focusHtml = coach.focus
+        .map(focusArea => `<span class="focus-tag">${focusLabels[focusArea]}</span>`)
         .join('');
 
     const coachTestimonials = getCoachTestimonials(coach.id);
@@ -98,9 +98,9 @@ function openModal(coach) {
         <div class="modal-section-title">About</div>
         <p class="modal-bio">${coach.bio}</p>
         
-        <div class="modal-section-title">Specializations</div>
-        <div class="modal-goals">
-            ${goalsHtml}
+        <div class="modal-section-title">Areas of Focus</div>
+        <div class="modal-focus">
+            ${focusHtml}
         </div>
         
         <div class="modal-section-title">Background</div>
@@ -139,14 +139,14 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
-// Filter coaches by goal
+// Filter coaches by focus area
 function filterCoaches(filterType) {
     currentFilter = filterType;
 
     if (filterType === 'all') {
         renderCoaches(coaches);
     } else {
-        const filtered = coaches.filter(coach => coach.goals.includes(filterType));
+        const filtered = coaches.filter(coach => coach.focus.includes(filterType));
         renderCoaches(filtered);
     }
 

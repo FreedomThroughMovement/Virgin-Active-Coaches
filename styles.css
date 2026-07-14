@@ -308,6 +308,39 @@ body {
     gap: 8px;
 }
 
+/* Testimonials Section */
+.modal-testimonials {
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: var(--light-gray);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.testimonial-stars {
+    color: #ffc107;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.testimonial-text {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+/* Contact Section */
 .modal-contact {
     margin-top: 30px;
     padding-top: 20px;

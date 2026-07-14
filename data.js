@@ -8,9 +8,7 @@ const coaches = [
         goals: ["weight-loss", "strength"],
         image: "https://via.placeholder.com/280x280?text=Coach+John",
         experience: "8+ years",
-        certifications: ["NASM CPT", "ISSN-SNS"],
-        email: "john@virginactive.com",
-        phone: "+65 1234 5678"
+        certifications: ["NASM CPT", "ISSN-SNS"]
     },
     {
         id: 2,
@@ -20,9 +18,7 @@ const coaches = [
         goals: ["cardio", "weight-loss"],
         image: "https://via.placeholder.com/280x280?text=Coach+Sarah",
         experience: "6+ years",
-        certifications: ["ACE CPT", "Running Coach Certification"],
-        email: "sarah@virginactive.com",
-        phone: "+65 1234 5679"
+        certifications: ["ACE CPT", "Running Coach Certification"]
     },
     {
         id: 3,
@@ -32,9 +28,7 @@ const coaches = [
         goals: ["strength", "sports"],
         image: "https://via.placeholder.com/280x280?text=Coach+Marcus",
         experience: "10+ years",
-        certifications: ["CSCS", "NASM CPT", "Powerlifting Specialist"],
-        email: "marcus@virginactive.com",
-        phone: "+65 1234 5680"
+        certifications: ["CSCS", "NASM CPT", "Powerlifting Specialist"]
     },
     {
         id: 4,
@@ -44,9 +38,7 @@ const coaches = [
         goals: ["flexibility"],
         image: "https://via.placeholder.com/280x280?text=Coach+Emily",
         experience: "7+ years",
-        certifications: ["Yoga Instructor", "Pilates Instructor", "Mobility Coach"],
-        email: "emily@virginactive.com",
-        phone: "+65 1234 5681"
+        certifications: ["Yoga Instructor", "Pilates Instructor", "Mobility Coach"]
     },
     {
         id: 5,
@@ -56,9 +48,7 @@ const coaches = [
         goals: ["nutrition", "weight-loss"],
         image: "https://via.placeholder.com/280x280?text=Coach+David",
         experience: "9+ years",
-        certifications: ["RD", "Nutrition Coach", "Lifestyle Coach"],
-        email: "david@virginactive.com",
-        phone: "+65 1234 5682"
+        certifications: ["RD", "Nutrition Coach", "Lifestyle Coach"]
     },
     {
         id: 6,
@@ -68,9 +58,7 @@ const coaches = [
         goals: ["sports", "strength"],
         image: "https://via.placeholder.com/280x280?text=Coach+Lisa",
         experience: "8+ years",
-        certifications: ["CSCS", "Sports Performance Specialist", "ACE CPT"],
-        email: "lisa@virginactive.com",
-        phone: "+65 1234 5683"
+        certifications: ["CSCS", "Sports Performance Specialist", "ACE CPT"]
     }
 ];
 
@@ -83,3 +71,23 @@ const goalLabels = {
     "nutrition": "Nutrition",
     "sports": "Sports Performance"
 };
+
+// Main contact information for the facility
+const mainContact = {
+    email: "info@virginactive-payalebar.com",
+    phone: "+65 6XXX XXXX",
+    address: "Virgin Active Paya Lebar, Singapore"
+};
+
+// Testimonials data (for future use)
+const testimonials = [
+    {
+        id: 1,
+        clientName: "Client Name",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "Add your testimonial here. Describe your experience working with the coach and your results.",
+        date: "2026-01-15"
+    }
+    // Add more testimonials as they come in
+];

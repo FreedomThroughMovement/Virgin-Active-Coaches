@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virgin Active Paya Lebar - Coach Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Virgin Active Paya Lebar</h1>
+            <p class="subtitle">Meet Our Professional Coaches</p>
+        </header>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <h2>Filter by Goals</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Coaches</button>
+                <button class="filter-btn" data-filter="weight-loss">Weight Loss</button>
+                <button class="filter-btn" data-filter="strength">Strength Training</button>
+                <button class="filter-btn" data-filter="cardio">Cardio & Endurance</button>
+                <button class="filter-btn" data-filter="flexibility">Flexibility & Mobility</button>
+                <button class="filter-btn" data-filter="nutrition">Nutrition</button>
+                <button class="filter-btn" data-filter="sports">Sports Performance</button>
+            </div>
+        </section>
+
+        <!-- Coaches Grid -->
+        <section class="coaches-section">
+            <div class="coaches-grid" id="coachesGrid">
+                <!-- Coach cards will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Modal for Coach Details -->
+        <div id="coachModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body" id="modalBody">
+                    <!-- Coach details will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

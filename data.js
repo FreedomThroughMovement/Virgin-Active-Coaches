@@ -2,74 +2,96 @@
 const coaches = [
     {
         id: 1,
-        name: "John Smith",
-        specialty: "Personal Trainer",
-        bio: "With over 8 years of experience in fitness training, John specializes in helping clients achieve their body composition goals through a combination of strength training and nutrition coaching.",
-        goals: ["weight-loss", "strength"],
-        image: "https://via.placeholder.com/280x280?text=Coach+John",
-        experience: "8+ years",
-        certifications: ["NASM CPT", "ISSN-SNS"]
+        name: "Ken Chung",
+        specialty: "Fitness Manager",
+        bio: "I may not be able to add years to your life, but I will help add life to those years.",
+        focus: ["pain-management", "flexibility-mobility", "functional-strength", "sports-performance", "race-preparation"],
+        image: "https://via.placeholder.com/280x280?text=Coach+Ken",
+        experience: "6+ years",
+        certifications: ["ACE CPT", "FTI Functional Tools", "Rehab Essentials", "Rehab Masterclass", "Rehab Seniors", "Powerplate Certified", "Spartan Level 1 Coach", "Hyrox Level 1 Coach", "Aerobics Capacity"]
     },
     {
         id: 2,
-        name: "Sarah Johnson",
-        specialty: "Cardio & Endurance Coach",
-        bio: "Sarah is passionate about building cardiovascular fitness and has trained numerous clients for marathons and endurance events. Her dynamic approach makes training both effective and enjoyable.",
-        goals: ["cardio", "weight-loss"],
-        image: "https://via.placeholder.com/280x280?text=Coach+Sarah",
-        experience: "6+ years",
-        certifications: ["ACE CPT", "Running Coach Certification"]
+        name: "Avan Kua",
+        specialty: "Senior Coach",
+        bio: "No pain, All Gains",
+        focus: ["functional-strength", "pre-natal", "pain-management", "flexibility-mobility"],
+        image: "https://via.placeholder.com/280x280?text=Coach+Avan",
+        experience: "10+ years",
+        certifications: ["FISAF CPT", "Functional Patterns level 1", "Pre & Post-partum Certified", "TRX Suspension Certified", "Vipr Certified"]
     },
     {
         id: 3,
-        name: "Marcus Lee",
-        specialty: "Strength & Power Coach",
-        bio: "Marcus focuses on functional strength and power development. He's experienced with athletes and anyone looking to build serious muscle and strength.",
-        goals: ["strength", "sports"],
-        image: "https://via.placeholder.com/280x280?text=Coach+Marcus",
-        experience: "10+ years",
-        certifications: ["CSCS", "NASM CPT", "Powerlifting Specialist"]
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+3",
+        experience: "Experience",
+        certifications: []
     },
     {
         id: 4,
-        name: "Emily Chen",
-        specialty: "Flexibility & Mobility Specialist",
-        bio: "Emily combines yoga, pilates, and mobility training to help clients improve flexibility, reduce pain, and enhance overall movement quality.",
-        goals: ["flexibility"],
-        image: "https://via.placeholder.com/280x280?text=Coach+Emily",
-        experience: "7+ years",
-        certifications: ["Yoga Instructor", "Pilates Instructor", "Mobility Coach"]
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+4",
+        experience: "Experience",
+        certifications: []
     },
     {
         id: 5,
-        name: "David Kumar",
-        specialty: "Nutrition & Lifestyle Coach",
-        bio: "David works with clients to develop sustainable nutrition plans and healthy lifestyle habits. He believes in a holistic approach to health and wellness.",
-        goals: ["nutrition", "weight-loss"],
-        image: "https://via.placeholder.com/280x280?text=Coach+David",
-        experience: "9+ years",
-        certifications: ["RD", "Nutrition Coach", "Lifestyle Coach"]
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+5",
+        experience: "Experience",
+        certifications: []
     },
     {
         id: 6,
-        name: "Lisa Wong",
-        specialty: "Sports Performance Coach",
-        bio: "Lisa specializes in training athletes to enhance their sport-specific performance. She uses evidence-based training methods and biomechanical analysis.",
-        goals: ["sports", "strength"],
-        image: "https://via.placeholder.com/280x280?text=Coach+Lisa",
-        experience: "8+ years",
-        certifications: ["CSCS", "Sports Performance Specialist", "ACE CPT"]
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+6",
+        experience: "Experience",
+        certifications: []
+    },
+    {
+        id: 7,
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+7",
+        experience: "Experience",
+        certifications: []
+    },
+    {
+        id: 8,
+        name: "Coach Name",
+        specialty: "Specialty",
+        bio: "Bio coming soon...",
+        focus: [],
+        image: "https://via.placeholder.com/280x280?text=Coach+8",
+        experience: "Experience",
+        certifications: []
     }
 ];
 
-// Goal labels for display
-const goalLabels = {
-    "weight-loss": "Weight Loss",
-    "strength": "Strength Training",
-    "cardio": "Cardio & Endurance",
-    "flexibility": "Flexibility & Mobility",
-    "nutrition": "Nutrition",
-    "sports": "Sports Performance"
+// Focus labels for display
+const focusLabels = {
+    "body-transformation": "Body Transformation",
+    "pain-management": "Pain Management",
+    "flexibility-mobility": "Flexibility & Mobility",
+    "functional-strength": "Functional Strength",
+    "strength-performance": "Strength Performance",
+    "pre-natal": "Pre-natal",
+    "sports-performance": "Sports Performance",
+    "race-preparation": "Race Preparation"
 };
 
 // Main contact information for the facility

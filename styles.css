@@ -173,21 +173,20 @@ body {
     margin-bottom: 10px;
 }
 
-.coach-goals {
+.coach-focus {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     margin-bottom: 15px;
 }
 
-.goal-tag {
-    background-color: var(--dark-bg);
-    color: var(--primary-color);
-    padding: 4px 10px;
-    border-radius: 15px;
-    font-size: 0.85em;
+.focus-tag {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
     font-weight: 500;
-    border: 1px solid var(--primary-color);
 }
 
 .coach-description {
@@ -315,7 +314,7 @@ body {
     margin-bottom: 20px;
 }
 
-.modal-goals {
+.modal-focus {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;

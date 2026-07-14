@@ -52,7 +52,7 @@ function createCoachCard(coach) {
             <div class="coach-focus">
                 ${focusHtml}
             </div>
-            <p class="coach-description">${coach.bio.substring(0, 100)}...</p>
+            <p class="coach-description">${coach.bio.substring(0, 100)}</p>
             <p class="click-to-view">👆 Click to view full profile</p>
         </div>
     `;

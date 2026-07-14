@@ -61,11 +61,34 @@ function createCoachCard(coach) {
     return card;
 }
 
+// Get testimonials for a specific coach
+function getCoachTestimonials(coachId) {
+    return testimonials.filter(testimonial => testimonial.coachId === coachId);
+}
+
+// Create testimonials HTML
+function createTestimonialsHtml(coachTestimonials) {
+    if (coachTestimonials.length === 0) {
+        return `<p class="modal-bio"><em>No testimonials yet. Be the first to share your experience!</em></p>`;
+    }
+
+    return coachTestimonials.map(testimonial => `
+        <div class="testimonial">
+            <div class="testimonial-stars">${'⭐'.repeat(testimonial.rating)}</div>
+            <p class="testimonial-text">"${testimonial.text}"</p>
+            <p class="testimonial-author">- ${testimonial.clientName}</p>
+        </div>
+    `).join('');
+}
+
 // Open modal with coach details
 function openModal(coach) {
     const goalsHtml = coach.goals
         .map(goal => `<span class="goal-tag">${goalLabels[goal]}</span>`)
         .join('');
+
+    const coachTestimonials = getCoachTestimonials(coach.id);
+    const testimonialsHtml = createTestimonialsHtml(coachTestimonials);
 
     modalBody.innerHTML = `
         <img src="${coach.image}" alt="${coach.name}" class="modal-image">
@@ -86,15 +109,24 @@ function openModal(coach) {
             <strong>Certifications:</strong> ${coach.certifications.join(', ')}
         </p>
         
+        <div class="modal-section-title">Client Testimonials</div>
+        <div class="modal-testimonials">
+            ${testimonialsHtml}
+        </div>
+        
         <div class="modal-contact">
             <div class="modal-section-title">Get in Touch</div>
             <div class="contact-info">
                 <span class="contact-label">Email:</span>
-                <a href="mailto:${coach.email}" class="contact-value">${coach.email}</a>
+                <a href="mailto:${mainContact.email}" class="contact-value">${mainContact.email}</a>
             </div>
             <div class="contact-info">
                 <span class="contact-label">Phone:</span>
-                <a href="tel:${coach.phone}" class="contact-value">${coach.phone}</a>
+                <a href="tel:${mainContact.phone}" class="contact-value">${mainContact.phone}</a>
+            </div>
+            <div class="contact-info">
+                <span class="contact-label">Address:</span>
+                <span class="contact-value">${mainContact.address}</span>
             </div>
         </div>
     `;

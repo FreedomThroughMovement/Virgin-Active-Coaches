@@ -15,7 +15,7 @@ const coaches = [
         name: "Avan Kua",
         specialty: "Senior Coach",
         bio: "No pain, All Gains",
-        focus: ["functional-strength", "pre-natal", "pain-management", "flexibility-mobility"],
+        focus: ["functional-strength", "pre-natal", "pain-management", "flexibility-mobility","senior-training"],
         image: "image/Avan.jpg",
         experience: "10+ years",
         certifications: ["FISAF CPT", "Functional Patterns level 1", "Pre & Post-partum Certified", "TRX Suspension Certified", "Vipr Certified", "Evolt 360 Specialist"]

@@ -16,7 +16,7 @@ const coaches = [
         specialty: "Senior Coach",
         bio: "No pain, All Gains",
         focus: ["functional-strength", "pre-natal", "pain-management", "flexibility-mobility"],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Avan.jpg",
+        image: "image/Avan.jpg",
         experience: "10+ years",
         certifications: ["FISAF CPT", "Functional Patterns level 1", "Pre & Post-partum Certified", "TRX Suspension Certified", "Vipr Certified"]
     },

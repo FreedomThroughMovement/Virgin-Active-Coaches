@@ -110,11 +110,19 @@ const mainContact = {
 const testimonials = [
     {
         id: 1,
-        clientName: "Client Name",
+        clientName: "Alexis Ageorges",
         coachId: 1,  // Reference to coach ID
         rating: 5,
-        text: "Add your testimonial here. Describe your experience working with the coach and your results.",
-        date: "2026-01-15"
+        text: "What really sets this gym apart is the personal trainer i work with: Ken. He's an expert in rehab and has helped me overcome a range of issues with my knees, lower back and shoulder. I'd highly recommend this gym and my trainer to anyone looking for a supportive and knowledgeable environment to achieve their fitness goals.",
+        date: "2024-01-25"
+    },
+    {
+        id: 2,
+        clientName: "Christie Kamala",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "As a senior citizen, I was hesitant to work out at the gym myself. After meeting Ken Chung, I was motivated to have personal training with him. He Patiently trained me 1-2 tines a week for 1 year. He helped me with my strength, mobility and balance issues by teaching me suitable exercises to improve in these areas. He is very knowledgeable, friendly and encouraging. He also taught me how to use the various gym machines properly so that I could work out safely on my own. I am grateful for his help and motivation in helping me to become stronger, fitter and to move more confidently.",
+        date: "2026-01-27"
     }
     // Add more testimonials as they come in
 ];

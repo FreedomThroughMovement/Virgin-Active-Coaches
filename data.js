@@ -26,7 +26,7 @@ const coaches = [
         specialty: "Senior Trainer",
         bio: "We're a team. Together, we'll find ways that work for you.",
         focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation"],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Shazni.jpg",
+        image: "image/Shazni.jpg",
         experience: "5+ years",
         certifications: ["ACE CPT", "Biomedical Science", "Nutrition Dip.", "Women Health & Performance Certified", "ISA Special Population Training", "Rehab Essentials", "Trigger Point Certified", "Aerobics Capacity level 1", "ACE Functional Training Specialist"]
     },
@@ -36,7 +36,7 @@ const coaches = [
         specialty: "Coach",
         bio: "I will guide you with dedication, empowering you to achieve your unique fitness goals.",
         focus: ["body-transformation", "pre-natal", "flexibility-mobility"],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Sarah%20Ong.jpg",
+        image: "image/Sarah.jpg",
         experience: "2+ years",
         certifications: ["ACE CPT", "NYP Sports & Wellness Management", "ACE Weight Management Specialist", "ACE Pre & Post Natal Certified"]
     },
@@ -46,7 +46,7 @@ const coaches = [
         specialty: "Coach",
         bio: "I will help convert fitness from being a requirement to being your enjoyment.",
         focus: ["strength-performance", "body-transformation", "functional-strength", "flexibility-mobility"],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Xavier.jpg",
+        image: "image/Xavier.jpg",
         experience: "2+ years",
         certifications: ["TBC"]
     },
@@ -76,7 +76,7 @@ const coaches = [
         specialty: "Coach",
         bio: "Bio coming soon...",
         focus: [],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Natasha%20PT%20Profile.jpg",
+        image: "image/Natasha.jpg",
         experience: "Experience",
         certifications: []
     }

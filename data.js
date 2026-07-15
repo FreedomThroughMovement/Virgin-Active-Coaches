@@ -89,9 +89,12 @@ const focusLabels = {
     "flexibility-mobility": "Flexibility & Mobility",
     "functional-strength": "Functional Strength",
     "strength-performance": "Strength Performance",
-    "pre-natal": "Pre-natal",
+    "pre-natal": "Pre-Natal",
     "sports-performance": "Sports Performance",
-    "race-preparation": "Race Preparation"
+    "race-preparation": "Race Preparation",
+    "hybrid-performance": "Hybrid Performance",
+    "nutrition": "Nutrition",
+    "hyrox": "Hyrox"
 };
 
 // Main contact information for the facility

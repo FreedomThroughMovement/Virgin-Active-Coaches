@@ -158,10 +158,11 @@ body {
 
 .coach-info {
     padding: 20px;
+    text-align: center;
 }
 
 .coach-name {
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: 600;
     color: var(--text-white);
     margin-bottom: 5px;
@@ -171,6 +172,7 @@ body {
     color: var(--primary-color);
     font-weight: 500;
     margin-bottom: 10px;
+    font-size: 0.95em;
 }
 
 .coach-focus {
@@ -178,6 +180,7 @@ body {
     flex-wrap: wrap;
     gap: 5px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 .focus-tag {

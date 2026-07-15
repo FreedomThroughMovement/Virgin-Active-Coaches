@@ -56,7 +56,7 @@ const coaches = [
         specialty: "Coach",
         bio: "Bio coming soon...",
         focus: [],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Faiz%20Trainer%20Image.jpg",
+        image: "image/Faiz.jpg",
         experience: "Experience",
         certifications: []
     },

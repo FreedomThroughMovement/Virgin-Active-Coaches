@@ -23,7 +23,7 @@ const coaches = [
     {
         id: 3,
         name: "Shazni Yasir",
-        specialty: "Senior Trainer",
+        specialty: "Senior Coach",
         bio: "We're a team. Together, we'll find ways that work for you.",
         focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation"],
         image: "image/Shazni.jpg",
@@ -54,7 +54,7 @@ const coaches = [
         id: 6,
         name: "Ryan Faiz",
         specialty: "Coach",
-        bio: "Stronger. Healthier. Confident. I'll guide you to move better, perform better and live stronger with purpose.",
+        bio: "Stronger. Healthier. Confident. I'll guide you to move better, perform better and live stronger.",
         focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training"],
         image: "image/Faiz.jpg",
         experience: "2+ years",

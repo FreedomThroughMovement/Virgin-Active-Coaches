@@ -75,7 +75,7 @@ const coaches = [
         name: "Natasha Tan",
         specialty: "Coach",
         bio: "Consistency Beats Perfection.",
-        focus: [],
+        focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
         image: "image/Natasha.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Barre Certified", "Evolt 360 Certified"]

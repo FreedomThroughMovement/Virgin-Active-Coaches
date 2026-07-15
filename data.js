@@ -6,7 +6,7 @@ const coaches = [
         specialty: "Fitness Manager",
         bio: "I may not be able to add years to your life, but I will help add life to those years.",
         focus: ["pain-management", "flexibility-mobility", "functional-strength", "sports-performance", "race-preparation"],
-        image: "https://raw.githubusercontent.com/FreedomThroughMovement/Virgin-Active-Coaches/main/images/Ken%20Trainer%20Profile.jpg",
+        image: "image/Ken Trainer Profile.jpg",
         experience: "6+ years",
         certifications: ["ACE CPT", "FTI Functional Tools", "Rehab Essentials", "Rehab Masterclass", "Rehab Seniors", "Powerplate Certified", "Spartan Level 1 Coach", "Hyrox Level 1 Coach", "Aerobics Capacity"]
     },

@@ -48,7 +48,7 @@ const coaches = [
         focus: ["strength-performance", "body-transformation", "functional-strength", "flexibility-mobility"],
         image: "image/Xavier.jpg",
         experience: "2+ years",
-        certifications: ["TBC"]
+        certifications: ["..."]
     },
     {
         id: 6,
@@ -58,7 +58,7 @@ const coaches = [
         focus: [],
         image: "image/Faiz.jpg",
         experience: "Experience",
-        certifications: []
+        certifications: ["..."]
     },
     {
         id: 7,
@@ -68,7 +68,7 @@ const coaches = [
         focus: [],
         image: "image/Luke.jpg",
         experience: "Experience",
-        certifications: []
+        certifications: ["..."]
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ const coaches = [
         focus: [],
         image: "image/Natasha.jpg",
         experience: "Experience",
-        certifications: []
+        certifications: ["..."]
     }
 ];
 

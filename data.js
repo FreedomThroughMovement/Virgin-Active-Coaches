@@ -96,9 +96,9 @@ const focusLabels = {
 
 // Main contact information for the facility
 const mainContact = {
-    email: "info@virginactive-payalebar.com",
-    phone: "+65 6XXX XXXX",
-    address: "Virgin Active Paya Lebar, Singapore"
+    email: "ken.chung@virginactive.com.sg",
+    phone: "+65 6911 0580",
+    address: "1 Paya Lebar, #04-06, #04-07, #04-08, Singapore 408533"
 };
 
 // Testimonials data (for future use)

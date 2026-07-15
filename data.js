@@ -85,16 +85,17 @@ const coaches = [
 // Focus labels for display
 const focusLabels = {
     "body-transformation": "Body Transformation",
-    "pain-management": "Pain Management",
+
     "flexibility-mobility": "Flexibility & Mobility",
     "functional-strength": "Functional Strength",
-    "strength-performance": "Strength Performance",
-    "pre-natal": "Pre-Natal",
-    "sports-performance": "Sports Performance",
-    "race-preparation": "Race Preparation",
     "hybrid-performance": "Hybrid Performance",
+    "hyrox": "Hyrox",
     "nutrition": "Nutrition",
-    "hyrox": "Hyrox"
+    "pain-management": "Pain Management",
+    "pre-natal": "Pre-Natal",
+    "race-preparation": "Race Preparation",
+    "sports-performance": "Sports Performance",
+    "strength-performance": "Strength Performance"
 };
 
 // Main contact information for the facility

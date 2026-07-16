@@ -25,7 +25,7 @@ const coaches = [
         name: "Shazni Yasir",
         specialty: "Senior Coach",
         bio: "We're a team. Together, we'll find ways that work for you.",
-        focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation"],
+        focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation", "women-health"],
         image: "image/Shazni.jpg",
         experience: "5+ years",
         certifications: ["ACE CPT", "Biomedical Science", "Nutrition Dip.", "Women Health & Performance Certified", "ISA Special Population Training", "Rehab Essentials", "Trigger Point Certified", "Aerobics Capacity level 1", "ACE Functional Training Specialist", "Hyrox Level 1 Certified", "Evolt 360 Specialist"]
@@ -35,7 +35,7 @@ const coaches = [
         name: "Sarah Ong",
         specialty: "Coach",
         bio: "I will guide you with dedication, empowering you to achieve your unique fitness goals.",
-        focus: ["body-transformation", "pre-natal", "flexibility-mobility"],
+        focus: ["body-transformation", "pre-natal", "flexibility-mobility", "functional-strength", "strength-performance"],
         image: "image/Sarah.jpg",
         experience: "2+ years",
         certifications: ["ACE CPT", "NYP Sports & Wellness Management", "ACE Weight Management Specialist", "ACE Pre & Post Natal Certified", "Evolt 360 Specialist"]
@@ -96,7 +96,8 @@ const focusLabels = {
     "race-preparation": "Race Preparation",
     "senior-training": "Senior Training",
     "sports-performance": "Sports Performance",
-    "strength-performance": "Strength Performance"
+    "strength-performance": "Strength Performance",
+    "women-health": "Women Health"
 };
 
 // Main contact information for the facility

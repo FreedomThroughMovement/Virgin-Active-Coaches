@@ -123,7 +123,87 @@ const testimonials = [
         coachId: 1,  // Reference to coach ID
         rating: 5,
         text: "As a senior citizen, I was hesitant to work out at the gym myself. After meeting Ken Chung, I was motivated to have personal training with him. He Patiently trained me 1-2 tines a week for 1 year. He helped me with my strength, mobility and balance issues by teaching me suitable exercises to improve in these areas. He is very knowledgeable, friendly and encouraging. He also taught me how to use the various gym machines properly so that I could work out safely on my own. I am grateful for his help and motivation in helping me to become stronger, fitter and to move more confidently.",
+        date: "2024-01-27"
+    },    
+    {
+        id: 3,
+        clientName: "Sungwon Kim",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I attended Virgin Active Paya Lebar and have had PT sessions with Ken, and it's been a really great experience. Ken's training style is especially good for women: he focuses on slimming the body, improving posture, and creating clean, feminine lines rather than bulky muscles. The sessions are well-structured, effective and tailored to my body type and goals, and they really helped me achieve my dream wedding body. Highly recommend Ken if you're looking to get lean, toned, and sculpted in a healthy way.",
         date: "2026-01-27"
+    },
+    {
+        id: 4,
+        clientName: "Gilbert Teo",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "Ken is a great personal trainer. He's very knowledgeable in both fitness and nutrition, hence he's able to help you to achieve your goal. I've seen massive improvement just after a couple of months of training. Highly recommended.",
+        date: "2024-01-20"
+    },
+    {
+        id: 5,
+        clientName: "Joanne Tay",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I am writing this review for my personal trainer Ken Chung. I have trained with him for almost 6 months and I can't recommend him highly enough, especially if you are recovering from an injury or dealing with any physical limitations. His knowledge of rehabilitation training is outstanding, and he really take the time to understand your body and tailor every session to your specific needs and progress. /n/n What sets Ken apart is his patience, professionalism, and ability to push you just the right amount withouot ever risking re-injury. I've seen real improvement in both my strength and mobility, ald I always feel supported and safe during workouts. /n/n If you are looking for someone who's not only skilled but also incredibly encouraging and professional, Ken Chung is the one to go to. He has made a huge difference in my recovery journey. I am now stronger and fitter than before.",
+        date: "2024-01-27"
+    },
+    {
+        id: 6,
+        clientName: "Josi Tan",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I would like to express my appreciation to Senior Personal Trainer Ken Chung for his expertise and dedication in helping me recover from my shoulder pains and lower back pains that I have been suffering for months. I need to apply pain relieving plaster to my lower back to relieve the pain to help me sleep every night. However, with Ken's friendly and caring approach towards improving flexibility, reducing muscle tension and soreness, I no longer need the pain relieving plasters to sleep at night. I truly appreciate it.",
+        date: "2025-01-27"
+    },
+    {
+        id: 7,
+        clientName: "Kevin Aubry",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I have been a member for about 1.5 years and I have been training with Ken for the same time. They have taken care of me and helped me get back from many injuries to my sports while keeping it not boring.",
+        date: "2024-01-29"
+    },
+    {
+        id: 8,
+        clientName: "Nana Lina",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I recently had the pleasure of working with Ken at Virgin Active and it was an amazing experience. The trainer was knowledgeable, professional and supportive throughout the entire process. I appreciate the personalized attention and tailored workouts that were designed specifically for my fitness goals and abilities. The trainer also provided helpful guidance on nutrition and lifestyle habits that complimented my fitness routine.",
+        date: "2024-01-22"
+    },
+    {
+        id: 9,
+        clientName: "R S",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "Had a great time when I was a member; signed up for an physical trainer and worked with Ken. Ken is knowledgeable and his workout plan is very easy-to-follow. He constantly kept me motivated even when I had less time for the gym due to work. Ken is a very meticulous coach and his passion rubbed off on me. I noticed results very quickly and his goal-oriented nature helped my workouts be even more efficient. He is a trainer and a friend; thank you Ken and VA for being a part of my life.",
+        date: "2024-01-24"
+    },
+    {
+        id: 10,
+        clientName: "Roshan Jayashankar",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "Personal trainer Ken is a standout, with extensive knowledge of fitness and nutrition and a friendly, supportive approach that makes working out a pleasure. Ken takes the time to understand your goals and creates customised workout plans that are challenging but achievable. Whether you're looking to lose weight, build muscle or simply improve your overall fitness, Ken and the Virgin Active gym are a winning combination. Highly recommended!",
+        date: "2024-02-01"
+    },
+    {
+        id: 11,
+        clientName: "Sarah A",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "Ken was very professional from the beginning, asking about my goals, the health conditions I have and current lifestyle. He then proceeded to do a full body check on me and explained what the numbers indicated about our overall health. He was very detailed in explaining what each exercise is meant to strengthen and was professional in giving adjustments when needed.",
+        date: "2025-06-27"
+    },
+    {
+        id: 12,
+        clientName: "Viliah Overwater",
+        coachId: 1,  // Reference to coach ID
+        rating: 5,
+        text: "I have been doing weekly PT session with my trainer Ken Chung who uses a functional fitness philosophy to help you achieve your goals.",
+        date: "2024-01-29"
     }
     // Add more testimonials as they come in
 ];

@@ -146,7 +146,7 @@ const testimonials = [
         clientName: "Joanne Tay",
         coachId: 1,  // Reference to coach ID
         rating: 5,
-        text: "I am writing this review for my personal trainer Ken Chung. I have trained with him for almost 6 months and I can't recommend him highly enough, especially if you are recovering from an injury or dealing with any physical limitations. His knowledge of rehabilitation training is outstanding, and he really take the time to understand your body and tailor every session to your specific needs and progress. /n/n What sets Ken apart is his patience, professionalism, and ability to push you just the right amount withouot ever risking re-injury. I've seen real improvement in both my strength and mobility, ald I always feel supported and safe during workouts. /n/n If you are looking for someone who's not only skilled but also incredibly encouraging and professional, Ken Chung is the one to go to. He has made a huge difference in my recovery journey. I am now stronger and fitter than before.",
+        text: "I am writing this review for my personal trainer Ken Chung. I have trained with him for almost 6 months and I can't recommend him highly enough, especially if you are recovering from an injury or dealing with any physical limitations. His knowledge of rehabilitation training is outstanding, and he really take the time to understand your body and tailor every session to your specific needs and progress. What sets Ken apart is his patience, professionalism, and ability to push you just the right amount withouot ever risking re-injury. I've seen real improvement in both my strength and mobility, ald I always feel supported and safe during workouts. If you are looking for someone who's not only skilled but also incredibly encouraging and professional, Ken Chung is the one to go to. He has made a huge difference in my recovery journey. I am now stronger and fitter than before.",
         date: "2024-01-27"
     },
     {
@@ -204,6 +204,54 @@ const testimonials = [
         rating: 5,
         text: "I have been doing weekly PT session with my trainer Ken Chung who uses a functional fitness philosophy to help you achieve your goals.",
         date: "2024-01-29"
+    },
+    {
+        id: 13,
+        clientName: "Esther Lim",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "There's a lot of fear and misinformation surrounding working out while pregnant. I want to share my journey because I feel that working out using functional patterns methodology with Avan has made all the difference in my journey. Not only did I experience zero pain while pregnant (No back pain, no round ligament pain, no incontinence etc, but I also didn't feel like my bump hindered my mobility until the final few weeks. It has also made all the difference in my post c-section recovery and I felt 100% back to normal after 6-7 weeks. No Diastasis recti, core weakness or fascial restrictions from the formation of scar tissue post major surgery). At 3 weeks post c-section, I started doing gentle exercises and lots of active stretching. So if you're looking for a certified prenatal/postnatal trainer, or even someone who can fix your pain or dysfunctions, Avan does wonders.",
+        date: "2022-03-02"
+    },
+    {
+        id: 14,
+        clientName: "Jesiree Ologar",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "I was diagnosed with osteopenia in my hips over a year ago, and with the help of my personal trainer, Avan Kua, my osteopenia is now gone and I've gained 8.2% muscle. He's patient, really checks your form, and just knows his stuff when it comes to training.",
+        date: "2025-11-20"
+    },
+    {
+        id: 15,
+        clientName: "Lynette Tan",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "When I entered my 50s, I realized how crucial it was to stay fit and healthy. In 2019, I joined PLQ Virgin Active and started training with Avan as my personal trainer. From day one, he has been incredibly professional, customizing every exercise movements to align with my goals, focusing on full-body mobility, strength and muscle mass building. Avan's patience and support got me started and made me enjoy every workout session. Today, I'm proud of the progress I've made - my increased strength and transformed muscle definition are a testament to Avan's dedication. I couldn't have achieved these results without him!",
+        date: "2025-06-19"
+    },
+    {
+        id: 16,
+        clientName: "Joan Cheong",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "I have much to thank for a pre-natal personal trainer, Avan! I've decided to engage him for my 2nd pregnancy after experiencing the loss of muscles and strength from my 1st pregnancy. I was initially mildly worried that I will be too weak to even begin something like while being pregnant or worse, if it affects my baby. But Avan was very knowledgeable with pre-natal training, shared a lot of tips and knowledge about how to keep my core tight, most importantly, protect the baby during the sessions. He adjusted the intensity based on my progress and how my body felt each session, and had an incredible capability in teaching me how to engage the right muscle groups for each exercise. It's one story to tell you what muscle to use for an exercise, and a totally different thing being able to exactly tell you HOW to engage that muscle in your body. He also focused on dynamic moves and strength training to support day-to-day movement and lifestyle. Truly holistic wealth and fitness! I am thankful for this experience and the knowledge I've gained from it. Would recommend Avan 1000%!",
+        date: "2025-12-06"
+    },
+    {
+        id: 17,
+        clientName: "Roziana Cindy",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training at VA for the past year, with Avan as my personal trainer throughout, and it's been a great experience! I really enjoy his coaching style, especially his focus on functional training. He's knowledgeable, motivating, and always ensures my form is correct while tailoring each session to my needs. He truly goes the extra mile for his clients, and it really shows. Honestly, he's one of the main reasons I've stayed consistent with the gym. Highly recommend Avan if you're looking for a trainer who genuinely cares about your progress.",
+        date: "2026-07-09"
+    },
+    {
+        id: 18,
+        clientName: "Egor Saltykov",
+        coachId: 2,  // Reference to coach ID
+        rating: 5,
+        text: "Working with Coach Avan has been a game-changer for my fitness journey, especially during recovery and post-op rehabilitation. Avan's expertise and personalized approach have helped me regain strength and mobility faster than I expected. He tailors each session to my progress, ensuring a safe and effective recovery process. The gym itself is always spotless, creating a comfortable and motivating environment. The staff are incredibly friendly and welcoming, making each visit a positive experience. Highly recommend Avan.",
+        date: "2025-06-19"
     }
     // Add more testimonials as they come in
 ];

@@ -255,7 +255,7 @@ const testimonials = [
     },
     {
         id: 19,
-        clientName: ".",
+        clientName: "Ren Yi",
         coachId: 7,  // Reference to coach ID
         rating: 5,
         text: "The variation of exercises has kept training sessions enjoyable and satisfying when objectives are met. Sometimes, Luke will vary the tempo and exercises to match my energy levels. He's sensitive to my ability for the day. Under his program, I have managed to lose some weight and achieve an improved fitness level.",

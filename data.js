@@ -35,7 +35,7 @@ const coaches = [
         name: "Sarah Ong",
         specialty: "Coach",
         bio: "I will guide you with dedication, empowering you to achieve your unique fitness goals.",
-        focus: ["body-transformation", "pre-natal", "flexibility-mobility", "functional-strength", "strength-performance"],
+        focus: ["body-transformation", "pre-natal", "flexibility-mobility", "functional-strength", "strength-performance", "women-health"],
         image: "image/Sarah.jpg",
         experience: "2+ years",
         certifications: ["ACE CPT", "NYP Sports & Wellness Management", "ACE Weight Management Specialist", "ACE Pre & Post Natal Certified", "Evolt 360 Specialist"]

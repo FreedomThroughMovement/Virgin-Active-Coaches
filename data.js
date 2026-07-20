@@ -97,7 +97,7 @@ const focusLabels = {
     "senior-training": "Senior Training",
     "sports-performance": "Sports Performance",
     "strength-performance": "Strength Performance",
-    "women-health": "Women Health"
+    "women-health": "Women's Health"
 };
 
 // Main contact information for the facility

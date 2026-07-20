@@ -252,6 +252,46 @@ const testimonials = [
         rating: 5,
         text: "Working with Coach Avan has been a game-changer for my fitness journey, especially during recovery and post-op rehabilitation. Avan's expertise and personalized approach have helped me regain strength and mobility faster than I expected. He tailors each session to my progress, ensuring a safe and effective recovery process. The gym itself is always spotless, creating a comfortable and motivating environment. The staff are incredibly friendly and welcoming, making each visit a positive experience. Highly recommend Avan.",
         date: "2025-06-19"
+    },
+    {
+        id: 19,
+        clientName: ".",
+        coachId: 7,  // Reference to coach ID
+        rating: 5,
+        text: "The variation of exercises has kept training sessions enjoyable and satisfying when objectives are met. Sometimes, Luke will vary the tempo and exercises to match my energy levels. He's sensitive to my ability for the day. Under his program, I have managed to lose some weight and achieve an improved fitness level.",
+        date: "2026-06-01"
+    },
+    {
+        id: 20,
+        clientName: "Chiara Giuliani",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "I have trained with Ryan for a few months and honestly really enjoyed it! He's knowledgeable, patient and good at pushing you without making it feel intimidating. Sessions always feel tailored to what I needed and I could really see the progress over time. Also just very easy to talk to, which makes a big difference when you're training regularly - totally recommended!",
+        date: "2026-05-01"
+    },
+    {
+        id: 21,
+        clientName: "Fiona Foo",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "I've trained with Ryan for about 3 months and had a great experience. He's patient, friendly and very attentive during workouts. He observes my form closely and customizes exercises to suit my needs, especially since my upper body is weaker and I'm working on building strength. He also shares useful knowledge to help with muscle building. Highly recommend Ryan to anyone looking for a supportive and knowledgeable PT.",
+        date: "2026-05-10"
+    },
+    {
+        id: 22,
+        clientName: "Kerstin Schulze",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "Recently, I booked Ryan for personal training sessions to get back into training after a long break (Busy with business and kid). It was a great experience as he tailored the sessions to my availability, adjusting away from machines to smaller free weight so I could exercise at home rather than not doing anything at all because I cannot make it to the gym itself. It was definitely a great help to be more motivated again to train more.",
+        date: "2026-06-25"
+    },
+    {
+        id: 23,
+        clientName: "Enos Koh",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "I trained with Ryan and have only great things to say about him. He is very professional and is great at figuring out maximum working weight and reps dynamically; almost like an algorithm! As such, workouts feel extremely tailored to how your body is feeling on the day, with you getting the best workout every session. Ryan is also a very ethical person, he never upsells additional sessions if you really don't need it, and is focused instead on helping you achieve your goals. High recommended!",
+        date: "2026-07-20"
     }
     // Add more testimonials as they come in
 ];

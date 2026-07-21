@@ -64,7 +64,7 @@ const coaches = [
         id: 7,
         name: "Luke Lee",
         specialty: "Coach",
-        bio: "Never try, never know. Just ask yourself: Does our energy resonate?",
+        bio: "It's all about improving on what's been and making it better for what's to come.",
         focus: ["functional-strength", "hybrid-performance", "flexibility-mobility", "sports-performance", "strength-performance"],
         image: "image/Luke.jpg",
         experience: "10+ years",

@@ -292,6 +292,142 @@ const testimonials = [
         rating: 5,
         text: "I trained with Ryan and have only great things to say about him. He is very professional and is great at figuring out maximum working weight and reps dynamically; almost like an algorithm! As such, workouts feel extremely tailored to how your body is feeling on the day, with you getting the best workout every session. Ryan is also a very ethical person, he never upsells additional sessions if you really don't need it, and is focused instead on helping you achieve your goals. High recommended!",
         date: "2026-07-20"
+    },
+    {
+        id: 24,
+        clientName: "Japneet",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I used to find the gym intimidating, but Sarah has completely changed the way I look at exercise. From day one, she's made me feel comfortable, supported, and confident in what I'm doing. She somehow manages to find muscles I didn't even know existed (which I usually discover the next day), and she's always making sure I'm activating the right ones. If I'm not, she's quick to tweak the exercise so it actually works for my body. One of the things I appreciate most is how well she knows when to encourage me and when to push me just a little beyond what I think I'm capable of. Thanks to her, I'm now lifting weights I never imagined I'd be able to—and we've both had plenty of laughs celebrating those little wins along the way.I actually enjoy going to the gym now, which is something I never thought I'd say! If you're looking for a trainer who's knowledgeable, encouraging, and knows how to make hard work genuinely enjoyable, I couldn't recommend Sarah more. Thank you, Sarah, for believing in me, cheering me on, and making every session something I look forward to!",
+        date: "2026-07-20"
+    },
+    {
+        id: 25,
+        clientName: "Audrey",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Not sure if I had Sarah as my PT or to bully me into becoming my strongest self. She’s helped me become stronger, leaner, fitter, and most importantly, confident and motivated in exercising outside PT sessions. Thank you for pushing me when I needed it, keeping me accountable, and making every session something I actually would look forward to. The sweat and soreness are 100% worth it.",
+        date: "2026-07-20"
+    },
+    {
+        id: 26,
+        clientName: "Eilynn",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah makes me look forward to every workout! She always knows how to encourage me when I feel like giving up, and her positive reinforcement really keeps me going. She also pays close attention to my form throughout each session, making sure I’m exercising safely and effectively. Whenever I bring up any fitness concerns or challenges, she offers realistic, practical solutions that fit my lifestyle instead of one-size-fits-all advice. On top of that, she shares helpful tips and exercises I can do at home, which has made it much easier to stay consistent outside of our sessions. Highly recommend her to anyone looking for a knowledgeable, supportive, and encouraging trainer!",
+        date: "2026-07-20"
+    },
+    {
+        id: 27,
+        clientName: "Siti",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Having you as my PT has been one of the best decisions I've made. You're fun, funny, and always bring such positive energy to every session. More than helping me get stronger physically, you've taught me to be a fighter in real life. Thank you for always listening without judging, believing in me even when I doubted myself, and constantly motivating me to keep going. I'm truly grateful for everything you've done for me!",
+        date: "2026-07-20"
+    },
+    {
+        id: 28,
+        clientName: "Shi Min",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah is professional, patient, and always willing to answer all of my questions. Every session with her is enjoyable, and she always encourages me to challenge myself and do better. I’m so thankful for her support and guidance!",
+        date: "2026-07-20"
+    },
+    {
+        id: 29,
+        clientName: "Abigail",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I've had a positive experience training with Sarah. She explains exercises clearly, is attentive to questions, and makes sure I understand the proper technique. Her sessions are well-organized, and she pays close attention to any pain or discomfort, adjusting exercises when needed. I appreciate her thoughtful and professional approach.",
+        date: "2026-07-20"
+    },
+    {
+        id: 30,
+        clientName: "Eliza",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah is an amazing personal trainer! She’s warm, friendly, & incredibly patient, always taking the time to teach me how to use each machine correctly, making sure I feel confident with every exercise. She’s been supportive in helping me work towards my body goals, & every session is something I genuinely look forward to. We always have great chats, & she’s such a fun person to be around. If you’re looking for a trainer who’s knowledgeable, encouraging, & makes working out enjoyable, I’d definitely recommend Sarah!",
+        date: "2026-07-20"
+    },
+    {
+        id: 31,
+        clientName: "Ally",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "It has been a pleasure training with Sarah! I first came to her for postnatal recovery and some very real “carrying-a-baby-all-day” shoulder pain. Fast forward to today, my core is much stronger, my shoulder pain is gone, and I’ve discovered muscles I didn’t know existed! Sarah has a great balance of knowing when to push me beyond what I think I can do, while always adjusting the programme based on how my body is feeling that day. She’s also incredibly easy to talk to, so I never hesitate to discuss my goals or preferences, and she always tailors the sessions accordingly. Most importantly, she somehow makes every workout enjoyable. The hour flies by with plenty of laughs, and it feels more like a fun challenge than a typical gym session. I actually look forward to training each week, which is something I never thought I’d say. Highly recommend Sarah to anyone looking for a trainer who is knowledgeable, supportive, and genuinely makes fitness enjoyable!",
+        date: "2026-07-20"
+    },
+    {
+        id: 32,
+        clientName: "Yifan",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I have been training with Sarah for almost a year. Knowing my physical issues such as knee pain and neck pain, Sarah has customised PT plans to help strengthen relevant muscles, reduce pain and improve my general health. Training with her is such a delight as she is positive, professional, caring and always encouraging. Truly a great PT and grateful to have her!",
+        date: "2026-07-20"
+    },
+    {
+        id: 33,
+        clientName: "Olivia",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I started training with Sarah because I wanted more structure in my workouts. Left on my own, I'd just do things haphazardly, but she gave me a clear programme that kept me progressing towards my strength goals. I've been training with Sarah for over a year now, and she's great at knowing when to push and when to adapt. One of my biggest milestones was hitting a 100kg deadlift. I was aiming to get there by the end of the year, but I achieved it in 3 months. That showed me how much a well-planned, consistent programme can make a difference. I'd definitely recommend Sarah to beginners, busy people, or women who feel intimidated by the gym. She made strength training feel approachable and showed me that you don't need fancy workouts, just consistency and the right guidance.",
+        date: "2026-07-20"
+    },
+    {
+        id: 34,
+        clientName: "Deepika",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah is someone I’m grateful for …a trainer who didn’t just focus on reps, but on rebuilding confidence. She’s pushed me beyond what I thought were my limits, challenged my excuses, and helped me show up stronger - physically and mentally. This journey back to fitness feels different because of her belief, consistency, and the quiet way she keeps raising the bar. Big shoutout to her for making strength feel achievable again!",
+        date: "2026-07-20"
+    },
+    {
+        id: 35,
+        clientName: "Linda",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve had a great experience training with Sarah. She’s attentive, knowledgeable, and always ensures my form is correct while tailoring each session to my goals. Her encouragement and dedication keep me motivated, and I highly recommend her to anyone looking for a supportive and professional personal trainer.",
+        date: "2026-07-20"
+    },
+    {
+        id: 36,
+        clientName: "Agnes",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training with Sarah since May, and the difference has been huge. I came to her with a knee problem that made everyday movements uncomfortable, and she took the time to really understand the issue and build a program around it — focusing on strengthening my core to support my knees properly. Since then, I feel so much less pain when I squat or walk down stairs, something I honestly didn't think would improve this much. Sarah is knowledgeable, patient, and clearly cares about doing things safely and correctly rather than just pushing hard for the sake of it. Highly recommend her if you're dealing with an injury or just want a trainer who actually pays attention to your body.",
+        date: "2026-07-20"
+    },
+    {
+        id: 37,
+        clientName: "Verina",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training with her since Feb and it's been great all around. She personalizes every session based on how I'm feeling, pushes me to work hard, and really knows her stuff on technique-all while being genuinely friendly and easy to talk to. I feel noticeably stronger and am so much more confident in the gym now.",
+        date: "2026-07-20"
+    },
+    {
+        id: 38,
+        clientName: "Chu Tong Meloni",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah is incredibly attentive to detail and always ensures that every movement is performed with the correct form and posture. She will patiently explains each exercise, provides clear guidance, and corrects even the smallest mistakes to make sure you’re targeting the right muscles safely and effectively. As a beginner, I found her coaching style very reassuring and easy to follow. I would definitely recommend her to anyone looking for a knowledgeable and supportive trainer, plus she’s super friendly and chatty as well :)",
+        date: "2026-07-20"
+    },
+    {
+        id: 39,
+        clientName: "Xinzi",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training with my personal trainer Sarah for a year and a half now and I've really enjoyed the sessions. She's incredibly personable, encouraging, and genuinely dedicated to helping her clients achieve their goals. Every session is well-planned, motivating, and tailored to my progress, which keeps me challenged while building my confidence. Since training with her, I've noticed improvement in my overall strength and fitness. She consistently pushes me to do my best while making each workout enjoyable. Her positive attitude and commitment make every session something I look forward to. I highly recommend her to anyone looking for a knowledgeable, supportive, and motivating personal trainer! =)",
+        date: "2026-07-20"
+    },
+    {
+        id: 40,
+        clientName: "Ang Ming Xiang",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "A special shout-out goes to my personal trainer, Ryan. From day one, he's been incredibly encouraging, patient, and committed to helping me become a better version of myself. He knows when to push me beyond what I think I'm capable of, while always making sure my technique and progress come first. His positive attitude, professionalism, and genuine belief in his clients make every training session something I look forward to. On days when motivation is low, Ryan somehow always finds the right words to keep me going.",
+        date: "2026-07-21"
     }
     // Add more testimonials as they come in
 ];

@@ -68,7 +68,7 @@ const coaches = [
         focus: ["functional-strength", "hybrid-performance", "flexibility-mobility", "sports-performance", "strength-performance"],
         image: "image/Luke.jpg",
         experience: "10+ years",
-        certifications: ["ACE CPT", "NASM CPT", "Functional Tools Coach", "Corrective Strategy Level 1", "Kettlebell level 1", "Weightlifting Foundations"]
+        certifications: ["ACE CPT", "NASM CPT", "Functional Tools Coach", "Corrective Strategy Level 1", "Kettlebell level 1", "Weightlifting Foundations", "Zumba B1 Instructor"]
     },
     {
         id: 8,

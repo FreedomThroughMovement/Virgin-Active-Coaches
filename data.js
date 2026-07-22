@@ -25,7 +25,7 @@ const coaches = [
         name: "Shazni Yasir",
         specialty: "Senior Coach",
         bio: "We're a team. Together, we'll find ways that work for you.",
-        focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation", "women-health"],
+        focus: ["body-transformation", "pain-management", "flexibility-mobility", "race-preparation", "women-health", "functional-strength", "hybrid-performance", "nutrition", "senior-training", "sports-performance", "strength-performance"],
         image: "image/Shazni.jpg",
         experience: "5+ years",
         certifications: ["ACE CPT", "Biomedical Science", "Nutrition Dip.", "Women Health & Performance Certified", "ISA Special Population Training", "Rehab Essentials", "Trigger Point Certified", "Aerobics Capacity level 1", "ACE Functional Training Specialist", "Hyrox Level 1 Certified", "Evolt 360 Specialist"]

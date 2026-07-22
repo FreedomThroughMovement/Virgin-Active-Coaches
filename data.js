@@ -55,7 +55,7 @@ const coaches = [
         name: "Ryan Faiz",
         specialty: "Coach",
         bio: "Stronger. Healthier. Confident. I'll guide you to move better, perform better and live stronger.",
-        focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training"],
+        focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training", "nutrition"],
         image: "image/Faiz.jpg",
         experience: "2+ years",
         certifications: ["ACE CPT", "ACE Senior Fitness Specialist", "ACE Weight Management Specialist", "ACE Fitness Nutrition Specialist", "ACE Corrective Exercise Specialist", "Evolt 360 Specialist"]
@@ -428,6 +428,142 @@ const testimonials = [
         rating: 5,
         text: "A special shout-out goes to my personal trainer, Ryan. From day one, he's been incredibly encouraging, patient, and committed to helping me become a better version of myself. He knows when to push me beyond what I think I'm capable of, while always making sure my technique and progress come first. His positive attitude, professionalism, and genuine belief in his clients make every training session something I look forward to. On days when motivation is low, Ryan somehow always finds the right words to keep me going.",
         date: "2026-07-21"
+    },
+    {
+        id: 41,
+        clientName: "Derick Teo",
+        coachId: 3,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training with Shazni since July 2023, and it's been one of the best decisions I've made for my health. Over that time, I've lost more than 10kg, built real muscle, and feel genuinely better about myself day to day. What's made a difference is the consistency and the way the sessions are tailored to where I actually am, not some generic programme. She pushes me when I need it, adjusts when I'm struggling, and has kept me motivated across nearly two years, which says a lot given how easy it is to fall off. The progress speaks for itself, but the encouragement and genuine care behind it are what kept me coming back. If you are on the fence about getting a personal trainer here, I'd recommend Shazni without hesitation. Highly worth it.",
+        date: "2026-07-22"
+    },
+    {
+        id: 42,
+        clientName: "Priscilla",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Sarah for a while now, and I genuinely look forward to every session. She strikes the perfect balance between pushing me hard and making the workouts enjoyable. I’m almost always aching after our sessions, which is a clear sign that she knows exactly how to challenge me and help me progress. What I appreciate most is her strong focus on proper form and technique. She pays close attention to every movement, making sure exercises are performed correctly and safely rather than just chasing heavier weights or more reps. This attention to detail has helped me build confidence, avoid injuries, and get much more out of my workouts. Beyond being a great trainer, she is also an incredibly warm, friendly, and encouraging person. She creates a comfortable environment where it’s easy to ask questions, learn, and stay motivated. Her positive energy makes even the toughest sessions enjoyable. I would highly recommend her to anyone looking for a knowledgeable, dedicated, and genuinely caring personal trainer.",
+        date: "2026-07-21"
+    },
+    {
+        id: 43,
+        clientName: "Cheryl",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I started training with Sarah as a postpartum mum with one simple goal—to get stronger. I had very little muscle mass, suffered from frequent back and shoulder pain, and was generally weak and prone to injuries. More than anything, I wanted to be strong enough to carry and keep up with my young child. Sarah was incredibly patient and always took the time to make sure my form was correct before progressing to heavier weights. Since I have diastasis recti, she also tailored my core exercises to ensure they were safe and appropriate. I really appreciated that she respected the level of commitment I could realistically make and never pressured me. Instead, she created workouts that were achievable, enjoyable, and still challenged me to improve. The biggest compliment I can give Sarah is that I’m still strength training on my own today. She completely changed my mindset towards the gym—from something I dreaded to something I genuinely enjoy and look forward to. I’m so much stronger, more confident, and no longer feel as easily injured. I’m really grateful for her guidance and would happily recommend her to anyone looking for a patient, knowledgeable, and encouraging trainer.",
+        date: "2026-07-21"
+    },
+    {
+        id: 44,
+        clientName: "Ting Xiang",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Sarah for 6 months, and I couldn’t have asked for a better PT. She is incredibly encouraging and always knows exactly how to motivate me. Whenever I’m about to give up or feel like I can’t finish a set, she’ll remind me, “You can do it!” and cheer me on through those last few reps. Her encouragement has helped me push past my limits and build more confidence in myself. What I appreciate even more is that she genuinely cares about my progress, even outside of our scheduled training sessions. Whenever I see her at the gym on my own training days and have questions about an exercise or whether my form is correct, she’s always happy to help. She takes the time to check my posture, correct my technique, and make sure I’m training safely and effectively. Sarah is not only knowledgeable but also patient, supportive, and passionate about helping her trainee succeed. I highly recommend her to anyone looking for a trainer who will motivate you, guide you, and make your fitness journey enjoyable.",
+        date: "2026-07-21"
+    },
+    {
+        id: 45,
+        clientName: "Camillia",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I've been training with Sarah for almost a year now, and I honestly couldn't recommend her more. I came into the gym as a complete beginner with very little confidence around weights, as well as a history of recurring back issues. From day one, she's taken the time to understand my issues, work closely with my physiotherapist's recommendations, and adapt every workout to suit exactly what my body needs. She never just tells me what exercise to do—she always makes sure I'm activating the right muscles, checks in on how I'm feeling that day, and adjusts movements if I'm experiencing any pain or discomfort. It's clear she's incredibly knowledgeable and genuinely cares about helping her clients train safely while still making progress. I've gone from being intimidated by the weights section and having no confidence in the gym to lifting more than double what I started with on exercises like the bench press. Sarah has a great way of breaking everything down into manageable steps, which made the gym feel far less overwhelming as a beginner. More importantly, I genuinely feel stronger than I ever have before. Beyond her expertise, she's also incredibly kind, encouraging and patient. She knows when to push me, but she's also understanding when my body needs something different. She's never rushed a session and has often given me extra time when I've needed it. It's a rare balance of being supportive, attentive and motivating all at once.",
+        date: "2026-07-21"
+    },
+    {
+        id: 46,
+        clientName: "Jaclyn",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah is patient and encouraging. She makes her sessions for a gym noob like me less torturous and more fun by engaging in cheerful banter in between reps. Brilliant.",
+        date: "2026-07-22"
+    },
+    {
+        id: 47,
+        clientName: "Danielle",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I have been with Virgin Active for years now. The gym floor at PLQ is clean and easy to navigate. The staff is helpful. I don't like workout alone so l enjoy their group classes especially Grid. I also started personal training a year ago, which really helps me breakthrough with strength than I could ever by myself - shoutout to my trainer Sarah. Overall highly recommended if you're like me who prefer to workout with a group/company.",
+        date: "2026-07-22"
+    },
+    {
+        id: 48,
+        clientName: "Alvin Chiam",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Xavier Quek for almost two years, and looking back, it was one of the best decisions I’ve made for my fitness journey. When I first started, my goal was actually quite simple. I just wanted to build a better upper body so that I would look better in clothes, especially having broader shoulders and a more defined chest. After about a year of consistent training, I could really see the changes. My shoulders have become noticeably broader, my overall body shape has improved, and although my chest is still a work in progress (which I know takes time), the difference compared to before I started is huge. More importantly, I’ve become much more confident in myself. What really sets Xavier apart is that he doesn’t just follow a standard training plan. As my body changed, he constantly adjusted my workouts and advised me on what areas I should focus on to achieve the best overall physique. Even though my original goal was just to improve my upper body, he tailored a balanced programme that suited me much better. Xavier is incredibly patient and knowledgeable. He always takes the time to explain every exercise and correction until I truly understand it. There were many times I struggled to feel the correct muscle engagement, but he never got frustrated. Instead, he patiently guided me until I got it right. He’s also very motivating and encouraging. He knows when to push me to work harder, but he also knows when my body has reached its limit and never forces me to overdo it. I really appreciate that balance because it keeps training challenging while still feeling safe. What impressed me even more is that his coaching doesn’t stop when the PT session ends. Whenever he sees me training on my own, he’ll still come over to correct my form, give me tips, or offer advice. He also shares nutrition guidance and explains what foods would better support my goals. It genuinely feels like he cares about my progress rather than just the PT sessions. Beyond being an excellent trainer, Xavier is friendly, approachable, and easy to talk to. Every session is enjoyable because we can have a good chat while still staying focused on training. He creates an environment where I always feel comfortable asking questions, no matter how basic they may seem. One of the most memorable moments during my journey was being awarded Best Trainee of the Month. I honestly never imagined I could achieve something like that before I started training. It gave me a real sense of accomplishment, and I truly believe I wouldn’t have reached that milestone without Xavier’s guidance, encouragement, and belief in me. If you’re looking for a trainer who is knowledgeable, patient, motivating, genuinely cares about your progress, and knows how to tailor a programme specifically for you, I highly recommend Xavier Quek. Whether your goal is to build muscle, improve your physique, or simply become a healthier and more confident version of yourself, you’ll be in great hands.",
+        date: "2026-07-20"
+    },
+    {
+        id: 49,
+        clientName: "Frederick",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "Xavier provides me with a highly personalised training experience. He takes time to understand my goals, adapts each session to my abilities, and helps me progress at a comfortable pace. He's patient, knowledgeable, and explains every exercise clearly to ensure proper technique for best results. He also offers practical nutrition advice and reviews my Evolt results in detail, giving me confidence that I'm making steady progress towards my health goals.",
+        date: "2026-07-20"
+    },
+    {
+        id: 50,
+        clientName: "Sharif",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve had a very positive experience training with Xavier. He is knowledgeable, patient, and attentive, and he always takes the time to explain each exercise clearly and correct my form. The training sessions are well structured, challenging, and tailored to my fitness level and goals. He is also encouraging and motivating without making the sessions feel overwhelming. Since training with him, I have become more confident in the gym and have noticed improvements in my strength and overall fitness. I would highly recommend him to anyone looking for a dedicated, supportive, and professional personal trainer.",
+        date: "2026-07-20"
+    },
+    {
+        id: 51,
+        clientName: "SP",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I trained with Xavier for the last few months and it has been a really positive experience. He is very observant and consistent, and always pays close attention to form each session. He gives clear and practical feedback on how to move properly and which muscle groups to activate, which made a real difference over time. I also really appreciated how respectful he always was, and how willing he was to adjust himself / training to suit my preferences. He creates a comfortable and supportive environment, and it was motivating to have progress tracked and acknowledged. I have seen steady and meaningful improvements and would definitely recommend Xavier to anyone looking for a professional and considerate personal trainer.",
+        date: "2026-07-21"
+    },
+    {
+        id: 52,
+        clientName: "Adam",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training consistently with personal trainers for over seven years and have worked with Xavier for the past two-plus years. What sets him apart is his deep understanding of the human body structure and how to tailor training to individual needs and goals. Xavier is highly adaptable. Depending on the sports and activities I’m doing in a given week, he’s able to quickly adjust my programme to focus on the right muscle groups and recovery needs. He also has multiple exercise alternatives for the same muscle group, allowing him to find the most effective and comfortable option on any given day. What I value most is his long-term approach. He plans several months ahead, progressively adjusting weights, reps, and intensity based on my goals while always prioritising injury prevention. He’s also very knowledgeable when it comes to managing muscle aches and minor injuries, ensuring training remains productive without unnecessary risk. Beyond the technical aspects, Xavier is positive, encouraging, and reliable, which makes sessions enjoyable and something I genuinely look forward to. At the same time, he sets high expectations and brings a level of intensity that motivates you to show up prepared, well-rested, and ready to put in the work. I’d highly recommend Xavier to anyone looking for a knowledgeable, adaptable, and professional trainer who is invested in helping clients achieve long-term results safely and effectively.",
+        date: "2026-07-21"
+    },
+    {
+        id: 53,
+        clientName: "Kelly",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I have trained with Xavier for a little over a year and continue to have a great experience each session. He is professional, highly knowledgeable about fitness, and genuinely invested in helping me achieve my fitness goals. Every session is well planned, and there is progression that is clearly visible. For example, this is seen from the increasing weights or complexity in exercises. Xavier provides clear guidance and is willing to try different methods to ensure I understand what I am supposed to do for the particular exercise, while keeping the workouts motivating and enjoyable. He is also knowledgable as he informs me about the reason we are performing each exercise and the muscle group it targets or the goal. Since training with Xavier, I've increased my muscle mass, reduced my body fat percentage, and improved my cardio fitness quicker. The last point makes everyday activities much easier. Beyond the results, he has given me the confidence and skills to work out safely on my own instead of relying solely on our sessions. There's always something new to learn from him. I highly recommend Xavier to anyone looking for a dedicated, encouraging, and knowledgeable personal trainer.",
+        date: "2026-07-21"
+    },
+    {
+        id: 54,
+        clientName: "Megan E. Lim",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I have been training with Xavier for roughly eight months, and it has been a truly transformative experience. When I started, I wanted to get into shape, and Xavier helped me achieve that in ways I did not expect. What really set Xavier apart was how supportive he was throughout the entire journey. He made me feel completely at ease by encouraging me to talk openly about my goals, my concerns, and how I was feeling each session. That openness allowed me to trust him fully, which made every session more productive and enjoyable. He also gave me the courage to be more proactive about my fitness. I started going to the gym more often, whether for his sessions or on my own, and that confidence has made all the difference. Throughout our sessions, he taught me a wide range of practical and effective ways to stay fit beyond just the exercises we did together. He explained the reasoning behind each movement and routine, so I now have a much better understanding of how to train safely and effectively on my own. Safety has always been a top priority for Xavier. He consistently corrected my form, ensured I was using the equipment properly, and reminded me to listen to my body. Because of his guidance, I have built confidence in the gym and avoided injuries. I would highly recommend Xavier to anyone looking for a knowledgeable, patient, and genuinely supportive personal trainer. The progress I have made over the past eight months speaks for itself, and I am grateful for everything he has taught me.",
+        date: "2026-07-21"
+    },
+    {
+        id: 55,
+        clientName: "Hanif Hasan",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "Xavier has been a great personal trainer — truly one of the best I could have asked for. Beyond his expertise, he is incredibly friendly, patient, and understanding. He is highly professional, deeply knowledgeable in his field, and has a natural gift for motivation. Even on days when I doubted myself, he encouraged me to push through that final rep when I genuinely didn’t think I could. His coaching style strikes the perfect balance between genuine encouragement and clear, effective guidance. He knows exactly how to challenge me in a way that feels supportive rather than overwhelming, which is exactly what I needed. I feel incredibly fortunate to have trained with him, and he was an excellent instructor throughout our sessions. I would wholeheartedly recommend Xavier to anyone — young or old — who is ready to take that first step toward their fitness goals. You couldn’t ask for a better trainer.",
+        date: "2026-07-21"
+    },
+    {
+        id: 56,
+        clientName: "Pat",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I joined Virgin Active a couple of years ago and I was so blessed to be coached by Xavier my very special Personal Trainer and Sensei 🙏🙏🙏🙏🙏 We used to do back to back sessions and I loved loved loved every minute of it. All the muscles received the best training possible in the safest way possible. The exercises were always new exciting and challenging (this the way I like it). Xavier is very experienced and was always able to design programs to improve my form, endurance and strength. Xavier is not only a Senior  PT he is truly a Master and my Sensei Thank you Sensei for all your support and dedication",
+        date: "2026-07-22"
+    },
+    {
+        id: 57,
+        clientName: "Andrew Patrick",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "I switched to Virgin Active a year ago and engaged Personal Trainer Xavier to help me fix my muscle imbalances and other issues. Thanks to his guidance, I’ve seen major improvements in stability, symmetry, and functional strength. Movements that previously felt uncomfortable or uneven are now smooth and controlled. My overall training performance has improved because my body is finally working in balance. Xavier has shown strong technical knowledge of biomechanics and corrective exercises. He is also reliable, punctual, and fully engaged during every session. Look no further if you want to achieve your fitness goals - Move to Virgin Active and look for Xavier!",
+        date: "2026-07-22"
     }
     // Add more testimonials as they come in
 ];

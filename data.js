@@ -55,7 +55,7 @@ const coaches = [
         name: "Ryan Faiz",
         specialty: "Coach",
         bio: "Stronger. Healthier. Confident. I'll guide you to move better, perform better and live stronger.",
-        focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training", "nutrition"],
+        focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training", "nutrition", "sports-performance"],
         image: "image/Faiz.jpg",
         experience: "2+ years",
         certifications: ["ACE CPT", "ACE Senior Fitness Specialist", "ACE Weight Management Specialist", "ACE Fitness Nutrition Specialist", "ACE Corrective Exercise Specialist", "Evolt 360 Specialist"]

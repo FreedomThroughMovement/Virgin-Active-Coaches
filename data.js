@@ -564,6 +564,22 @@ const testimonials = [
         rating: 5,
         text: "I switched to Virgin Active a year ago and engaged Personal Trainer Xavier to help me fix my muscle imbalances and other issues. Thanks to his guidance, I’ve seen major improvements in stability, symmetry, and functional strength. Movements that previously felt uncomfortable or uneven are now smooth and controlled. My overall training performance has improved because my body is finally working in balance. Xavier has shown strong technical knowledge of biomechanics and corrective exercises. He is also reliable, punctual, and fully engaged during every session. Look no further if you want to achieve your fitness goals - Move to Virgin Active and look for Xavier!",
         date: "2026-07-22"
+    },
+    {
+        id: 58,
+        clientName: "Julie Cayetano",
+        coachId: 3,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Shazni since 2023, and I honestly can’t recommend her enough. She’s amazing at what she does and genuinely cares about helping you become the best version of yourself. One thing I really appreciate is that she doesn’t just tell you what to do—she’ll actually take the time to research things if you’re dealing with something specific and make sure you’re getting the right guidance. She’s always correcting my form, which has helped me get stronger safely, and she’s played a huge part in my weight loss journey. More than that, Shazni has helped me take better care of my body overall. Whenever I have tight knots, aches, stiff joints, or limited mobility, she knows exactly how to help relieve the pain and get me moving better again. I’ve learned so much from her about looking after myself, both in and outside the gym. I’m stronger, move better, and feel so much better because of her. If you’re looking for someone who’s knowledgeable, patient, and truly invested in your progress, Shazni is the one.",
+        date: "2026-07-22"
+    },
+    {
+        id: 59,
+        clientName: "Syabiqah",
+        coachId: 3,  // Reference to coach ID
+        rating: 5,
+        text: "Shazni has been my PT since 2022, guiding me through all my hobbies, phases, and injuries. As an active person with specific goals each year, both intentional and circumstantial, Shazni has tapped into her vast experience and diverse credentials to adapt and help me achieve them. Our relationship has always been a true partnership of working with rather than for or otherwise. She is incredibly specific and careful with the workouts she programs for me. From preparing my body for Hyrox (2nd year Sg hosted), pole, and CrossFit, to supplementing my rehabilitation exercises for spondylolisthesis, Shazni always understands the assignment and delivers.",
+        date: "2026-07-23"
     }
     // Add more testimonials as they come in
 ];

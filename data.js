@@ -580,6 +580,54 @@ const testimonials = [
         rating: 5,
         text: "Shazni has been my PT since 2022, guiding me through all my hobbies, phases, and injuries. As an active person with specific goals each year, both intentional and circumstantial, Shazni has tapped into her vast experience and diverse credentials to adapt and help me achieve them. Our relationship has always been a true partnership of working with rather than for or otherwise. She is incredibly specific and careful with the workouts she programs for me. From preparing my body for Hyrox (2nd year Sg hosted), pole, and CrossFit, to supplementing my rehabilitation exercises for spondylolisthesis, Shazni always understands the assignment and delivers.",
         date: "2026-07-23"
+    },
+    {
+        id: 60,
+        clientName: " Noorzahirin Mohd Salleh",
+        coachId: 6,  // Reference to coach ID
+        rating: 5,
+        text: "I started with Personal Trainer, Ryan with a nagging lower back and knee issue that kept me from working out. He is incredibly knowledgeable about anatomy and obsessed with proper form. The exercises, and movement patterns are working and my body is beginning to adapt and heal. I've also learned how to lift heavy safely. At age 55, I'm stronger now and more confident than I've ever been. Highly recommend! Thank you Ryan!",
+        date: "2026-07-23"
+    },
+    {
+        id: 61,
+        clientName: "Jerome Remeur",
+        coachId: 5,  // Reference to coach ID
+        rating: 5,
+        text: "Great place and even greater PT team. Xavier has helped me recover after a knee surgery (even better than my physio). Highly Recommend.",
+        date: "2026-07-22"
+    },
+    {
+        id: 62,
+        clientName: "Joey",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Sarah at Virgin Active for the past year, and I genuinely can’t recommend her enough. What stands out most about Sarah is how knowledgeable she is and how well she adapts every session to her client’s individual needs and goals. She pays close attention to posture and technique, making sure every movement is done correctly. I always felt safe and confident training with her because she never compromises on proper form. Beyond her technical expertise, Sarah is incredibly approachable, encouraging and easy to work with. She genuinely cares about her clients’ progress and always goes the extra mile to support them. I’ve experienced firsthand how valuable her coaching has been through different stages of my life. When I first started with Sarah, I was trying to get back into shape after taking a two-year break from exercise following the birth of my first child. Later, I continued training with her throughout my second pregnancy. She modified every workout appropriately, helping me stay active safely while building strength. Thanks to her guidance, I felt much stronger during pregnancy, had a smooth delivery, and only gained a healthy amount of weight because I was able to stay active consistently. If you’re looking for a personal trainer who is knowledgeable, attentive, genuinely invested in your success, and able to tailor training for all stages of life—including pregnancy—I wholeheartedly recommend Sarah. She’s been an important part of my fitness journey, and I’m so grateful for everything she’s helped me achieve.",
+        date: "2026-07-24"
+    },
+    {
+        id: 63,
+        clientName: "Jacqueline",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Sarah has been a constant source of guidance and encouragement in my fitness journey. She meticulously tracks my progress to personalise my training, enabling me to push myself and improve with each session while prioritising safety. She provides a safe space during our sessions for me to step out of my comfort zone and challenge myself. I look forward to more sessions with her!",
+        date: "2026-07-24"
+    },
+    {
+        id: 64,
+        clientName: "Zoey",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I signed up to get fitter, but I didn't expect to pay someone to make walking downstairs a weekly challenge. Jokes aside, Sarah has been an amazing trainer. She knows exactly how to push you, keeps every session motivating, and always gets more out of you than you think you have. You'll probably question your life choices every time Bulgarian split squats come up... but you'll also get stronger because of it. Couldn't recommend her more!",
+        date: "2026-07-24"
+    },
+    {
+        id: 65,
+        clientName: "Jennifer",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I’ve been training with Sarah for a while now and it’s been a lot of fun! She’s knowledgeable, friendly, and knows how to push me to my limits (while smiling very innocently). I’ve definitely seen steady progress in my strength and fitness. Would definitely recommend her if you’re looking for a PT and a friend who’s supportive and genuinely invested in helping you improve!",
+        date: "2026-07-24"
     }
     // Add more testimonials as they come in
 ];

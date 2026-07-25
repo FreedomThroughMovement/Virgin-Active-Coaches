@@ -628,6 +628,14 @@ const testimonials = [
         rating: 5,
         text: "I’ve been training with Sarah for a while now and it’s been a lot of fun! She’s knowledgeable, friendly, and knows how to push me to my limits (while smiling very innocently). I’ve definitely seen steady progress in my strength and fitness. Would definitely recommend her if you’re looking for a PT and a friend who’s supportive and genuinely invested in helping you improve!",
         date: "2026-07-24"
+    },
+    {
+        id: 66,
+        clientName: "Ya Li & Nich",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "We love our duo sessions with Sarah. She has great energy, adapts workouts to our individual needs, and gives both of us 100% of her attention. She knows how to motivate and push us without overdoing it. Super kind and standard-setting!",
+        date: "2026-07-25"
     }
     // Add more testimonials as they come in
 ];

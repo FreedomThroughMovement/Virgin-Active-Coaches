@@ -58,7 +58,7 @@ const coaches = [
         focus: ["body-transformation", "strength-performance", "race-preparation", "senior-training", "nutrition", "sports-performance"],
         image: "image/Ryan.jpg",
         experience: "2+ years",
-        certifications: ["ACE CPT", "ACE Senior Fitness Specialist", "ACE Weight Management Specialist", "ACE Fitness Nutrition Specialist", "ACE Corrective Exercise Specialist", "Evolt 360 Specialist"]
+        certifications: ["ACE CPT", "ACE Senior Fitness Specialist", "ACE Weight Management Specialist", "ACE Fitness Nutrition Specialist", "ACE Corrective Exercise Specialist", "Evolt 360 Specialist", "Hyrox level 1 Coach"]
     },
     {
         id: 7,

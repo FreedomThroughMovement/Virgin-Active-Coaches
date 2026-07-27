@@ -636,6 +636,14 @@ const testimonials = [
         rating: 5,
         text: "We love our duo sessions with Sarah. She has great energy, adapts workouts to our individual needs, and gives both of us 100% of her attention. She knows how to motivate and push us without overdoing it. Super kind and standard-setting!",
         date: "2026-07-25"
+    },
+    {
+        id: 67,
+        clientName: "Choon Moi",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I have been training with Sarah for about 1.5 years, and she is incredibly professional and patient. Her training has significantly strengthened my arms and legs. In fact, after just 4 months of working with her, I was able to successfully hike Mount Kinabalu! I started with very weak arms, but under her guidance and encouragement, I can now lift 4kg weights. Sarah always pushes me to work harder and reach my potential. Thank you, Sarah, for your excellent coaching and for making me so much stronger!",
+        date: "2026-07-26"
     }
     // Add more testimonials as they come in
 ];

@@ -644,6 +644,14 @@ const testimonials = [
         rating: 5,
         text: "I have been training with Sarah for about 1.5 years, and she is incredibly professional and patient. Her training has significantly strengthened my arms and legs. In fact, after just 4 months of working with her, I was able to successfully hike Mount Kinabalu! I started with very weak arms, but under her guidance and encouragement, I can now lift 4kg weights. Sarah always pushes me to work harder and reach my potential. Thank you, Sarah, for your excellent coaching and for making me so much stronger!",
         date: "2026-07-26"
+    },
+    {
+        id: 68,
+        clientName: "Bidisha",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "Training with Sarah has been a great experience. They're incredibly supportive, patient, and always create a positive environment without making workouts feel stressful or intimidating. At the same time, they make sure you're consistently progressing, challenging you at the right pace while keeping you motivated. I always leave each session feeling stronger, more confident and looking to the next one. Highly recommend!",
+        date: "2026-07-27"
     }
     // Add more testimonials as they come in
 ];

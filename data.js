@@ -84,17 +84,17 @@ const coaches = [
         id: 9,
         name: "Jude Edward",
         specialty: "Coach",
-        bio: ".",
+        bio: "Train your body. Build your mind.",
         focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
         image: "image/Jude.jpg",
         experience: "2+ years",
-        certifications: ["NCSF CPT", "Evolt 360 Certified"]
+        certifications: ["NCSF CPT", "NCSF Sports Nutrition Specialist", "NCSF Strength and Conditioning Coach", "Master of Counselling", "Advanced Certificate in Learning and Performance", "Evolt 360 Certified"]
     },
     {
         id: 10,
         name: "Sim Hui",
         specialty: "Coach",
-        bio: ".",
+        bio: "True success isn't defined by how you show up on your best days, but how you fight through your worst.",
         focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
         image: "image/SimHui.jpg",
         experience: "2+ years",

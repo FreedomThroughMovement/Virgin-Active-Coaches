@@ -116,6 +116,13 @@ body {
     align-items: start;
 }
 
+/* Force 3 columns on mid-sized viewports (tablets/landscape) so each card has more width for focus tags */
+@media (min-width: 600px) and (max-width: 1199px) {
+    .coaches-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .coach-card {
     background: var(--card-bg);
     border-radius: 8px;
@@ -126,7 +133,8 @@ body {
     border: 3px solid var(--border-color);
     display: flex;
     flex-direction: column;
-    min-height: 320px; /* ensure consistent height when content varies */
+    height: 100%; /* stretch to fill the grid row height so all cards match */
+    min-height: 320px; /* keep a sensible minimum */
 }
 
 .coach-card:hover {

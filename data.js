@@ -65,7 +65,7 @@ const coaches = [
         name: "Luke Lee",
         specialty: "Coach",
         bio: "It's all about improving on what's been and making it better for what's to come.",
-        focus: ["functional-strength", "hybrid-performance", "flexibility-mobility", "sports-performance", "strength-performance"],
+        focus: ["functional-strength", "hybrid-performance", "flexibility-mobility", "strength-performance"],
         image: "image/Luke.jpg",
         experience: "10+ years",
         certifications: ["ACE CPT", "NASM CPT", "Functional Tools Coach", "Corrective Strategy Level 1", "Kettlebell level 1", "Weightlifting Foundations", "Zumba B1 Instructor"]
@@ -79,6 +79,26 @@ const coaches = [
         image: "image/Natasha.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Barre Certified", "Evolt 360 Certified"]
+    }
+    {
+        id: 9,
+        name: "Jude Edward",
+        specialty: "Coach",
+        bio: ".",
+        focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
+        image: ".",
+        experience: "2+ years",
+        certifications: ["NCSF CPT", "Evolt 360 Certified"]
+    }
+    {
+        id: 10,
+        name: "Sim Hui",
+        specialty: "Coach",
+        bio: ".",
+        focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
+        image: ".",
+        experience: "2+ years",
+        certifications: ["NCSF CPT", "Evolt 360 Certified"]
     }
 ];
 

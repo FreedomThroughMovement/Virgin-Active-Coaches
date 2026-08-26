@@ -782,3 +782,18 @@ body {
     margin-bottom: 10px;
     color: var(--text-white);
 }
+
+/* TEMP DEBUG: outlines + force display at tablet sizes to help diagnose missing cards */
+@media (max-width: 1024px) {
+  .coaches-grid {
+    outline: 3px dashed lime !important;
+    min-height: 120px !important;
+    display: grid !important;
+  }
+  .coach-card {
+    outline: 2px dashed magenta !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

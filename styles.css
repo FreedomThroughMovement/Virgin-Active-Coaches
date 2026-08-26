@@ -117,7 +117,8 @@ body {
 }
 
 /* Force 3 columns on mid-sized viewports (tablets/landscape) so each card has more width for focus tags */
-@media (min-width: 600px) and (max-width: 1199px) {
+/* Expanded the upper bound so wide horizontal tablets still get 3 columns */
+@media (min-width: 600px) and (max-width: 1600px) {
     .coaches-grid {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -134,7 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%; /* stretch to fill the grid row height so all cards match */
-    min-height: 320px; /* keep a sensible minimum */
+    min-height: 300px; /* reduced a bit so cards are not too long */
 }
 
 .coach-card:hover {

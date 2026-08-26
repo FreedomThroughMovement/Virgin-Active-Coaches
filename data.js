@@ -79,7 +79,7 @@ const coaches = [
         image: "image/Natasha.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Barre Certified", "Evolt 360 Certified"]
-    }
+    },
     {
         id: 9,
         name: "Jude Edward",
@@ -89,7 +89,7 @@ const coaches = [
         image: "image/Jude.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Evolt 360 Certified"]
-    }
+    },
     {
         id: 10,
         name: "Sim Hui",

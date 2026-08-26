@@ -86,7 +86,7 @@ const coaches = [
         specialty: "Coach",
         bio: ".",
         focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
-        image: ".",
+        image: "image/Jude.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Evolt 360 Certified"]
     }
@@ -96,7 +96,7 @@ const coaches = [
         specialty: "Coach",
         bio: ".",
         focus: ["flexibility-mobility", "body-transformation", "strength-performance"],
-        image: ".",
+        image: "image/SimHui.jpg",
         experience: "2+ years",
         certifications: ["NCSF CPT", "Evolt 360 Certified"]
     }

@@ -672,6 +672,30 @@ const testimonials = [
         rating: 5,
         text: "Training with Sarah has been a great experience. They're incredibly supportive, patient, and always create a positive environment without making workouts feel stressful or intimidating. At the same time, they make sure you're consistently progressing, challenging you at the right pace while keeping you motivated. I always leave each session feeling stronger, more confident and looking to the next one. Highly recommend!",
         date: "2026-07-27"
+    },
+    {
+        id: 69,
+        clientName: "Dhivya",
+        coachId: 8,  // Reference to coach ID
+        rating: 5,
+        text: "Been training with Natasha for around 2 months, she brings great energy as a PT, and is in tune with my needs; helping me learn new exercises, and pushing me beyond what I think I can do. Would recommend to anyone looking to start their gym journey!",
+        date: "2026-08-11"
+    },
+    {
+        id: 70,
+        clientName: "Michelle",
+        coachId: 8,  // Reference to coach ID
+        rating: 5,
+        text: "I would like to commend on my personal trainer, Natasha, who was very professional in supporting me with my needs. The sessions were enjoyable and she encouraged and motivated me as I progressed and became stronger. She also gave me tips and srategies on what I can do to continue improving.",
+        date: "2026-08-05"
+    },
+    {
+        id: 71,
+        clientName: "Sara",
+        coachId: 4,  // Reference to coach ID
+        rating: 5,
+        text: "I have really enjoyed training with Sarah! She pays close attention to my form during every exercise and corrects me immediately, which makes me feel safe and confident that I'm doing each movement correctly. What I appreciate most is that she never pushes me to lift heavier before I am ready. She carefully observes my progress and only increases the weights when she knows I can handle them. She also shares practical nutrition tips on what to eat to support my fitness goals, which has been really helpful. She's patient, encouraging, and genuinely cares about helping her clients improve. I highly recommend her to anyone looking for a knowledgeable and supportive personal trainer!",
+        date: "2026-08-03"
     }
     // Add more testimonials as they come in
 ];

@@ -5,10 +5,10 @@ const coaches = [
         name: "Ken Chung",
         specialty: "Fitness Manager",
         bio: "I may not be able to add years to your life, but I will help add life to those years.",
-        focus: ["pain-management", "flexibility-mobility", "functional-strength", "sports-performance", "race-preparation", "senior-training"],
+        focus: ["pain-management", "flexibility-mobility", "functional-strength", "sports-performance", "race-preparation", "senior-training", "women-health"],
         image: "image/Ken Trainer Profile.jpg",
         experience: "6+ years",
-        certifications: ["ACE CPT", "FTI Functional Tools", "Rehab Essentials", "Rehab Masterclass", "Rehab Seniors", "Powerplate Certified", "Spartan Level 1 Coach", "Hyrox Level 1 Coach", "Aerobics Capacity", "Evolt 360 Specialist"]
+        certifications: ["ACE CPT", "FTI Functional Tools", "Rehab Essentials", "Rehab Masterclass", "Rehab Seniors", "Pregnancy and Postpartum Instructor Certified", "Powerplate Certified", "Spartan Level 1 Coach", "Hyrox Level 1 Coach", "Aerobics Capacity", "Evolt 360 Specialist"]
     },
     {
         id: 2,
